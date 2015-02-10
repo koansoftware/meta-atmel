@@ -22,7 +22,6 @@ IMAGE_INSTALL += "\
 	iperf \
 	\
 	nbench-byte \
-	lmbench \
 	\
 	linux-firmware-ralink \
 	linux-firmware-ath6k \
@@ -35,7 +34,6 @@ IMAGE_INSTALL += "\
 	bridge-utils \
 	canutils \
 	gdbserver \
-	obp-utils \
 	usbutils \
 	wget \
 	${CORE_IMAGE_BASE_INSTALL} \
@@ -74,7 +72,6 @@ IMAGE_INSTALL += "\
 	gstreamer1.0-plugins-good-meta \
 	gstreamer1.0-plugins-ugly-meta \
 	gstreamer1.0-libav \
-	gstreamer1.0-plugins-hantro \
 	g1-binaries-dev \
 	g1-binaries-staticdev \
 	libv4l \
